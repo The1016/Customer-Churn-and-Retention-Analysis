@@ -6,6 +6,16 @@ This project analyzes customer churn patterns for a telecom company. Customer ch
 
 The goal of this project is to identify which customer groups are more likely to leave and provide business recommendations that can help improve customer retention.
 
+## Project Highlights
+
+- Analyzed churn patterns across 7,032 telecom customers.
+- Identified major churn drivers including contract type, tenure, monthly charges, payment method, and internet service type.
+- Found that month-to-month customers had the highest churn rate at 42.71%.
+- Found that customers in their first 12 months had a churn rate of 47.68%.
+- Created a customer risk score using five churn risk factors.
+- Found that customers with a risk score of 5 had a churn rate of 70.58%.
+- Built a Power BI dashboard to summarize churn insights and support retention decision-making.
+
 ## Business Problem
 
 The company wants to understand why customers are leaving and which customer segments should be prioritized for retention efforts.
@@ -146,6 +156,12 @@ The churn rate increased clearly as the risk score increased.
 This shows that customers with multiple risk factors are much more likely to leave.
 
 ![Churn by Risk Score](images/churn_by_risk_score.png)
+
+## Power BI Dashboard
+
+A Power BI dashboard was created to summarize the main churn insights and support business decision-making.
+
+![Power BI Dashboard](images/powerbi_dashboard.png)
 
 ## Business Recommendations
 
